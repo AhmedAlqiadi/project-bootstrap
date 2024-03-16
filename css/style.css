@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Open Sans", sans-serif; 
+  }
+  
+  ul {
+    list-style: none ;
+  }
+  
+  /* End Global Rules */
+  .header{
+    background-color:lightblue !important;
+  }
+  .carousel-item{
+    height: 100vh;
+  }
+  .rounded-3{
+    margin-top: 5px;
+  }
+  /* .button1{
+    margin: 0px auto !important;
+  } */
+  
+  .bg_opacity {
+    background-color: rgb(111 202 205 / 70%) !important;
+  }
+  
+  .text-color {
+    color: #292257 !important;
+  }
+  
+  .bg-color {
+    background-color: #1ca1b6!important;
+  }
+  /* start  translateLang */
+  .gardient-bg{
+    background-color: #58ad88c2;
+    border-radius: 6px;
+  }
+  .text-area{
+    margin-top: 5px;
+    width: 98%;
+  }
+  .translate{
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: gainsboro;
+  }
+  /* end translateLang */
+  /* start popularDestinationInMonde */
+
+.carousel-inner{
+  margin-top: 20% 0;
+}
+
+  .gardient-bg-color {
+    /* background: linear-gradient(to bottom,#403B7C , white); */
+    background-color: #1ca1b6!important;
+  }
+  
+  .border-color {
+    border-color: #403B7C!important;
+  }
+  
+  .bg-hover:hover {
+    background-color:#54c6f0!important;
+    color:white!important;
+  }
+  
+  .bg-hoverfooter:hover {
+    /* background-color:#403B7C!important; */
+    color:#e6e5f5!important;
+    
+  
+  }
+  .frameworks{
+    position: relative;
+    background-image: url(../images/jardin-essai-alger-bbe3ffa279.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .porterOne{
+    background-image: url(../images/jardin-essai-alger-bbe3ffa279.jpg) !important;
+    background-size: cover !important;
+    background-attachment: fixed !important; 
+  }
+  
+  .porterTwo{
+    background-image: url(../Images/cario.jpeg);
+    background-size: cover;
+    height: 400px; 
+    background-attachment: fixed; 
+  }
+  
+  .overley {
+    background-color: rgb(0 0 0 / 60%); 
+    position: absolute; 
+    width: 100%;
+    height: 100%;    
+    top: 0;
+    left: 0;
+  }
+  
+  .popularDestinationInMonde .car-over::before, .car-over::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    transition: 1s;
+    opacity: 0;
+    background-color: #6abfed!important;
+  }
+  
+  .popularDestinationInMonde .car-over::before {
+    left: 0%;
+    top: 0%;
+  }
+  
+  .popularDestinationInMonde .car-over::after{
+    right: 0%;
+    bottom: 0%;
+  }
+  
+  .popularDestinationInMonde .car-over:hover::before, .car-over:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+  }
+  
+  .box .card {
+    transition: .5s;
+  }
+  
+  .card-img-overlay {
+    transition: .5s;
+  }
+  .box .card:hover {
+    transform: scale(0.9);
+  }
+  
+  .box .card:hover .card-img-overlay{
+    transform: scale(0.9);
+  }
+  
+  .box:hover .card-img {
+    filter: grayscale(100%);
+  } 
+  
+  .card_poscard .ligne {
+    transition: 1s;
+  }
+  
+  .card_poscard:hover .ligne {
+    transform: scale(3.0);
+    transform-origin: left;
+  }
+  
+  .card_poscard {
+    overflow: hidden;  
+  }
+  
+  .card_poscard .img_poscard {
+    transition: 0.5s;
+  }
+  
+  .card_poscard:hover .img_poscard{
+    transform: scale(1.1);  
+  }
+  
+  @media (max-width:767px) {
+    .card_poscard .d-port{
+      display: flex !important;
+      flex-direction: column-reverse !important;
+    }  
+  
+    .card_poscard .img_poscard{
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)!important;
+    }  
+  }
+  
+  .icon-social {
+    transition: 0.5s;
+  
+  }
+  
+  .icon-social:hover {
+    background-color: #403B7C!important;
+    transform: scale(1.1)!important;
+    border-radius: 5px!important;
+  }
+  
+  .icon-social i{
+    transition: 0.4s;
+  }
+  
+  .icon-social:hover i {
+    background-color: white!important;
+    border:solid #403B7C 10px!important;
+    border-radius: 50%!important;
+    transform: translateY(-60px)!important;
+  }
+  
+  .icon-social:hover p { 
+    transform: translateY(-40px)!important;
+  }
+  
+  .nav-link-position {
+    transition:1s!important;
+  }
+  
+  .nav-link-position:focus {
+    border: 1px solid #403B7C!important;
+    transition:3s!important;  
+  }
+  
+  .dropdown-menu-position {
+    top: 41px!important;
+    left:0px!important;
+    transition: 2s!important;
+  }
+
+  .textcenter{
+    color: #fff;
+    margin-top: 24px;
+  }
+  @media (min-width: 320px){
+  .d-md-block {
+    display: block !important;
+    background-color: rgb(111 202 205 / 70%) !important;
+  }
+}
+/* start newes */
+.oneline{
+ /* width: 100%; */
+ height: 1px;
+ border: 1px solid gray;
+ margin-bottom: 10px; 
+}
+
+.textcard{
+  color: #b034d2df;
+  font-weight: bold;
+}
+.icons{
+  color: black;
+}
